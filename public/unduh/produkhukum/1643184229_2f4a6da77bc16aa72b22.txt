@@ -1,0 +1,22 @@
+Bidang I
+
+User	: bidang_1b@lembatakab.com
+Password: slmudaj
+
+
+Bidang II
+
+User	: bidang_2a@lembatakab.com 
+Paswword: 23456
+
+Bidang III
+
+User	: bidang_3a@lembatakab.com 
+Password: 34567
+
+Bidang IV
+
+User	: bidang_4c@lembatakab.com 
+Password: Soemarta
+
+
