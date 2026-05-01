@@ -1,0 +1,47 @@
+PETUNJUK SINGKAT PENGGUNAAN:
+
+~ Import database di Folder db
+~ Seting Database
+  - Cara 1. Seting di app\Config\Database.php lihat mulai baris 35 => sesuaikan hostname, database, username dan password
+  - Cara 2. Menggunakan file .env 
+    Lihat mulai baris 40-44 hilangkan tanda # => sesuaikan hostname, database, username dan password
+
+    #--------------------------------------------------------------------
+    # DATABASE
+    #--------------------------------------------------------------------
+
+    # database.default.hostname = localhost
+    # database.default.database = ci4_cmsdatagoe
+    # database.default.username = root
+    # database.default.password = 
+    # database.default.DBDriver = MySQLi
+ 
+~ SITUS JIKA SUDAH DIONLINEKAN GUNAKAN SETTING CARA 1
+~ File .env di baris ke 17 diubah ke production seperti dibawah ini.
+	#--------------------------------------------------------------------
+	# ENVIRONMENT
+	#--------------------------------------------------------------------
+
+	CI_ENVIRONMENT = production
+
+~ untuk Masuk DASHBOARD ADMIN:
+  namafolder/login
+  - Username : admin
+  - Password : admin123
+
+
+PERHATIAN:
+Agar Sistem Codeigniter 4 ini berjalan, maka pastikan Anda telah mengaktifkan beberapa ekstension 
+yang dibutuhkan antara lain:
+
+~ php-json ekstension untuk bekerja dengan JSON;
+~ php-mysqlnd native driver untuk MySQL;
+~ php-xml
+~ php-intl 
+~ libcurl (opsional)
+
+      --------------- WAJIB DILAKUKAN ---------------
+============================================================
+- Hapus file db dan Petunjuk ini jika diupload ke HOSTING!!!
+- Segera ganti User dan Password Admin
+- Aktifkan Header pada file httacces di root utama cms ini
