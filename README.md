@@ -1,56 +1,647 @@
-# CodeIgniter 4 Framework
+git clone https://github.com/Luthfan-Rofian/web-profile-darululum.git
+    ```
+2.  **Tentu, ini draf `README.md` yang lebih lengkap, mendalam, dan terstruktur untuk repository **web-profile-darululum**. Format ini dirancang agar terlihat sangat profesional bagi siapa pun yang mengunjungi profil GitHub Anda.
 
-## What is CodeIgniter?
+---
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](http://codeigniter.com).
+# Web Profile & Information System - Ponpes Darul Ulum Tlasih
 
-This repository holds the distributable version of the framework,
-including the user guide. It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+![Version](https://img.shields.io/badge/Version-1.0.0-blue)
+![Framework](https://img.shields.io/badge/Framework-CodeIgniter--4-firebrick)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
+Sistem profil web dan sistem informasi manajemen (SIM) resmi ini dikembangkan khusus untuk **Pondok Pesantren Darul Ulum Tlasih, Tulangan**. Proyek ini merupakan inisiatif **DigitalNote by Rofian** untuk membawa transformasi digital ke lingkungan pendidikan Islam, mempermudah akses informasi publik, serta mengelola administrasi internal secara efisien.
 
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+## 📌 Tentang Proyek
+Aplikasi ini tidak hanya berfungsi sebagai "wajah" digital pesantren di internet, tetapi juga sebagai pusat data yang mengintegrasikan berbagai kebutuhan operasional institusi. Dengan menggunakan **CodeIgniter 4**, sistem ini menawarkan performa yang ringan, cepat, dan tingkat keamanan yang lebih baik.
 
+### ✨ Fitur Utama
+*   **Profil Lembaga Dinamis:** Publikasi sejarah, visi-misi, dan struktur organisasi pesantren secara interaktif.
+*   **Sistem Manajemen Santri:** Pendataan database santri yang terorganisir untuk mempermudah pencarian dan pengarsipan.
+*   **Manajemen Konten (CMS):** Memungkinkan admin pesantren untuk memperbarui berita, galeri kegiatan, dan pengumuman tanpa menyentuh kode program.
+*   **Arsitektur Aman:** Implementasi folder `public/` sebagai *document root* untuk melindungi logika inti framework dari akses luar.
 
-## Important Change with index.php
+## 🛠️ Tech Stack
+*   **Core Framework:** [CodeIgniter 4.x](https://codeigniter.com)
+*   **Programming Language:** PHP 7.4+
+*   **Database:** MySQL
+*   **Frontend:** Bootstrap / CSS Custom
+*   **Developer:** DigitalNote by Rofian
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+## ⚙️ Panduan Instalasi
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+Pastikan server Anda memenuhi persyaratan PHP 7.4 ke atas dengan ekstensi `intl` dan `mbstring` yang aktif.
 
-**Please** read the user guide for a better explanation of how CI4 works!
+1.  **Clone Repository**
+    ```bash
+    git clone https://github.com/Luthfan-Rofian/web-profile-darululum.git
+    ```
+2.  **Konfigurasi Environment**
+    *   Salin file `env` menjadi `.env`.
+    *   Sesuaikan pengaturan database:
+        Tentu, ini draf `README.md` yang lebih lengkap, mendalam, dan terstruktur untuk repository **web-profile-darululum**. Format ini dirancang agar terlihat sangat profesional bagi siapa pun yang mengunjungi profil GitHub Anda.
 
-## Repository Management
+---
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+# Web Profile & Information System - Ponpes Darul Ulum Tlasih
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+![Version](https://img.shields.io/badge/Version-1.0.0-blue)
+![Framework](https://img.shields.io/badge/Framework-CodeIgniter--4-firebrick)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## Contributing
+Sistem profil web dan sistem informasi manajemen (SIM) resmi ini dikembangkan khusus untuk **Pondok Pesantren Darul Ulum Tlasih, Tulangan**. Proyek ini merupakan inisiatif **DigitalNote by Rofian** untuk membawa transformasi digital ke lingkungan pendidikan Islam, mempermudah akses informasi publik, serta mengelola administrasi internal secara efisien.
 
-We welcome contributions from the community.
+## 📌 Tentang Proyek
+Aplikasi ini tidak hanya berfungsi sebagai "wajah" digital pesantren di internet, tetapi juga sebagai pusat data yang mengintegrasikan berbagai kebutuhan operasional institusi. Dengan menggunakan **CodeIgniter 4**, sistem ini menawarkan performa yang ringan, cepat, dan tingkat keamanan yang lebih baik.
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+### ✨ Fitur Utama
+*   **Profil Lembaga Dinamis:** Publikasi sejarah, visi-misi, dan struktur organisasi pesantren secara interaktif.
+*   **Sistem Manajemen Santri:** Pendataan database santri yang terorganisir untuk mempermudah pencarian dan pengarsipan.
+*   **Manajemen Konten (CMS):** Memungkinkan admin pesantren untuk memperbarui berita, galeri kegiatan, dan pengumuman tanpa menyentuh kode program.
+*   **Arsitektur Aman:** Implementasi folder `public/` sebagai *document root* untuk melindungi logika inti framework dari akses luar.
 
-## Server Requirements
+## 🛠️ Tech Stack
+*   **Core Framework:** [CodeIgniter 4.x](https://codeigniter.com)
+*   **Programming Language:** PHP 7.4+
+*   **Database:** MySQL
+*   **Frontend:** Bootstrap / CSS Custom
+*   **Developer:** DigitalNote by Rofian
 
-PHP version 7.4 or higher is required, with the following extensions installed:
+## ⚙️ Panduan Instalasi
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+Pastikan server Anda memenuhi persyaratan PHP 7.4 ke atas dengan ekstensi `intl` dan `mbstring` yang aktif.
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+1.  **Clone Repository**
+    ```bash
+    git clone https://github.com/Luthfan-Rofian/web-profile-darululum.git
+    ```
+2.  **Konfigurasi Environment**
+    *   Salin file `env` menjadi `.env`.
+    *   Sesuaikan pengaturan database:
+        ```env
+        database.default.hostname = localhost
+        database.default.database = nama_db_anda
+        database.default.username = root
+        database.default.password = 
+        database.default.DBDriver = MySQLi
+        ```
+3.  **Pengaturan URL**
+    *Tentu, ini draf `README.md` yang lebih lengkap, mendalam, dan terstruktur untuk repository **web-profile-darululum**. Format ini dirancang agar terlihat sangat profesional bagi siapa pun yang mengunjungi profil GitHub Anda.
 
-- json (enabled by default - don't turn it off)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
+---
+
+# Web Profile & Information System - Ponpes Darul Ulum Tlasih
+
+![Version](https://img.shields.io/badge/Version-1.0.0-blue)
+![Framework](https://img.shields.io/badge/Framework-CodeIgniter--4-firebrick)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+Sistem profil web dan sistem informasi manajemen (SIM) resmi ini dikembangkan khusus untuk **Pondok Pesantren Darul Ulum Tlasih, Tulangan**. Proyek ini merupakan inisiatif **DigitalNote by Rofian** untuk membawa transformasi digital ke lingkungan pendidikan Islam, mempermudah akses informasi publik, serta mengelola administrasi internal secara efisien.
+
+## 📌 Tentang Proyek
+Aplikasi ini tidak hanya berfungsi sebagai "wajah" digital pesantren di internet, tetapi juga sebagai pusat data yang mengintegrasikan berbagai kebutuhan operasional institusi. Dengan menggunakan **CodeIgniter 4**, sistem ini menawarkan performa yang ringan, cepat, dan tingkat keamanan yang lebih baik.
+
+### ✨ Fitur Utama
+*   **Profil Lembaga Dinamis:** Publikasi sejarah, visi-misi, dan struktur organisasi pesantren secara interaktif.
+*   **Sistem Manajemen Santri:** Pendataan database santri yang terorganisir untuk mempermudah pencarian dan pengarsipan.
+*   **Manajemen Konten (CMS):** Memungkinkan admin pesantren untuk memperbarui berita, galeri kegiatan, dan pengumuman tanpa menyentuh kode program.
+*   **Arsitektur Aman:** Implementasi folder `public/` sebagai *document root* untuk melindungi logika inti framework dari akses luar.
+
+## 🛠️ Tech Stack
+*   **Core Framework:** [CodeIgniter 4.x](https://codeigniter.com)
+*   **Programming Language:** PHP 7.4+
+*   **Database:** MySQL
+*   **Frontend:** Bootstrap / CSS Custom
+*   **Developer:** DigitalNote by Rofian
+
+## ⚙️ Panduan Instalasi
+
+Pastikan server Anda memenuhi persyaratan PHP 7.4 ke atas dengan ekstensi `intl` dan `mbstring` yang aktif.
+
+1.  **Clone Repository**
+    ```bash
+    git clone https://github.com/Luthfan-Rofian/web-profile-darululum.git
+    ```
+2.  **Konfigurasi Environment**
+    *   Salin file `env` menjadi `.env`.
+    *   Sesuaikan pengaturan database:
+        ```env
+        database.default.hostname = localhost
+        database.default.database = nama_db_anda
+        database.default.username = root
+        database.default.password = 
+        database.default.DBDriver = MySQLi
+        ```
+3.  **Pengaturan URL**
+    *   Atur `app.baseURL` di file `.env` sesuai dengan alamat domain atau localhost Anda.
+4.  **Konfigurasi Web Server**
+    *   **Tentu, ini draf `README.md` yang lebih lengkap, mendalam, dan terstruktur untuk repository **web-profile-darululum**. Format ini dirancang agar terlihat sangat profesional bagi siapa pun yang mengunjungi profil GitHub Anda.
+
+---
+
+# Web Profile & Information System - Ponpes Darul Ulum Tlasih
+
+![Version](https://img.shields.io/badge/Version-1.0.0-blue)
+![Framework](https://img.shields.io/badge/Framework-CodeIgniter--4-firebrick)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+Sistem profil web dan sistem informasi manajemen (SIM) resmi ini dikembangkan khusus untuk **Pondok Pesantren Darul Ulum Tlasih, Tulangan**. Proyek ini merupakan inisiatif **DigitalNote by Rofian** untuk membawa transformasi digital ke lingkungan pendidikan Islam, mempermudah akses informasi publik, serta mengelola administrasi internal secara efisien.
+
+## 📌 Tentang Proyek
+Aplikasi ini tidak hanya berfungsi sebagai "wajah" digital pesantren di internet, tetapi juga sebagai pusat data yang mengintegrasikan berbagai kebutuhan operasional institusi. Dengan menggunakan **CodeIgniter 4**, sistem ini menawarkan performa yang ringan, cepat, dan tingkat keamanan yang lebih baik.
+
+### ✨ Fitur Utama
+*   **Profil Lembaga Dinamis:** Publikasi sejarah, visi-misi, dan struktur organisasi pesantren secara interaktif.
+*   **Sistem Manajemen Santri:** Pendataan database santri yang terorganisir untuk mempermudah pencarian dan pengarsipan.
+*   **Manajemen Konten (CMS):** Memungkinkan admin pesantren untuk memperbarui berita, galeri kegiatan, dan pengumuman tanpa menyentuh kode program.
+*   **Arsitektur Aman:** Implementasi folder `public/` sebagai *document root* untuk melindungi logika inti framework dari akses luar.
+
+## 🛠️ Tech Stack
+*   **Core Framework:** [CodeIgniter 4.x](https://codeigniter.com)
+*   **Programming Language:** PHP 7.4+
+*   **Database:** MySQL
+*   **Frontend:** Bootstrap / CSS Custom
+*   **Developer:** DigitalNote by Rofian
+
+## ⚙️ Panduan Instalasi
+
+Pastikan server Anda memenuhi persyaratan PHP 7.4 ke atas dengan ekstensi `intl` dan `mbstring` yang aktif.
+
+1.  **Clone Repository**
+    ```bash
+    git clone https://github.com/Luthfan-Rofian/web-profile-darululum.git
+    ```
+2.  **Konfigurasi Environment**
+    *   Salin file `env` menjadi `.env`.
+    *   Sesuaikan pengaturan database:
+        ```env
+        database.default.hostname = localhost
+        database.default.database = nama_db_anda
+        database.default.username = root
+        database.default.password = 
+        database.default.DBDriver = MySQLi
+        ```
+3.  **Pengaturan URL**
+    *   Atur `app.baseURL` di file `.env` sesuai dengan alamat domain atau localhost Anda.
+4.  **Konfigurasi Web Server**
+    *   **Penting:** Arahkan *Document Root* Apache atau Nginx Anda ke folder `/public` agar aplikasi berjalan dengan benar dan amanTentu, ini draf `README.md` yang lebih lengkap, mendalam, dan terstruktur untuk repository **web-profile-darululum**. Format ini dirancang agar terlihat sangat profesional bagi siapa pun yang mengunjungi profil GitHub Anda.
+
+---
+
+# Web Profile & Information System - Ponpes Darul Ulum Tlasih
+
+![Version](https://img.shields.io/badge/Version-1.0.0-blue)
+![Framework](https://img.shields.io/badge/Framework-CodeIgniter--4-firebrick)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+Sistem profil web dan sistem informasi manajemen (SIM) resmi ini dikembangkan khusus untuk **Pondok Pesantren Darul Ulum Tlasih, Tulangan**. Proyek ini merupakan inisiatif **DigitalNote by Rofian** untuk membawa transformasi digital ke lingkungan pendidikan Islam, mempermudah akses informasi publik, serta mengelola administrasi internal secara efisien.
+
+## 📌 Tentang Proyek
+Aplikasi ini tidak hanya berfungsi sebagai "wajah" digital pesantren di internet, tetapi juga sebagai pusat data yang mengintegrasikan berbagai kebutuhan operasional institusi. Dengan menggunakan **CodeIgniter 4**, sistem ini menawarkan performa yang ringan, cepat, dan tingkat keamanan yang lebih baik.
+
+### ✨ Fitur Utama
+*   **Profil Lembaga Dinamis:** Publikasi sejarah, visi-misi, dan struktur organisasi pesantren secara interaktif.
+*   **Sistem Manajemen Santri:** Pendataan database santri yang terorganisir untuk mempermudah pencarian dan pengarsipan.
+*   **Manajemen Konten (CMS):** Memungkinkan admin pesantren untuk memperbarui berita, galeri kegiatan, dan pengumuman tanpa menyentuh kode program.
+*   **Arsitektur Aman:** Implementasi folder `public/` sebagai *document root* untuk melindungi logika inti framework dari akses luar.
+
+## 🛠️ Tech Stack
+*   **Core Framework:** [CodeIgniter 4.x](https://codeigniter.com)
+*   **Programming Language:** PHP 7.4+
+*   **Database:** MySQL
+*   **Frontend:** Bootstrap / CSS Custom
+*   **Developer:** DigitalNote by Rofian
+
+## ⚙️ Panduan Instalasi
+
+Pastikan server Anda memenuhi persyaratan PHP 7.4 ke atas dengan ekstensi `intl` dan `mbstring` yang aktif.
+
+1.  **Clone Repository**
+    ```bash
+    git clone https://github.com/Luthfan-Rofian/web-profile-darululum.git
+    ```
+2.  **Konfigurasi Environment**
+    *   Salin file `env` menjadi `.env`.
+    *   Sesuaikan pengaturan database:
+        ```env
+        database.default.hostname = localhost
+        database.default.database = nama_db_anda
+        database.default.username = root
+        database.default.password = 
+        database.default.DBDriver = MySQLi
+        ```
+3.  **Pengaturan URL**
+    *   Atur `app.baseURL` di file `.env` sesuai dengan alamat domain atau localhost Anda.
+4.  **Konfigurasi Web Server**
+    *   **Penting:** Arahkan *Document Root* Apache atau Nginx Anda ke folder `/public` agar aplikasi berjalan dengan benar dan aman.
+
+## 📝Tentu, ini draf `README.md` yang lebih lengkap, mendalam, dan terstruktur untuk repository **web-profile-darululum**. Format ini dirancang agar terlihat sangat profesional bagi siapa pun yang mengunjungi profil GitHub Anda.
+
+---
+
+# Web Profile & Information System - Ponpes Darul Ulum Tlasih
+
+![Version](https://img.shields.io/badge/Version-1.0.0-blue)
+![Framework](https://img.shields.io/badge/Framework-CodeIgniter--4-firebrick)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+Sistem profil web dan sistem informasi manajemen (SIM) resmi ini dikembangkan khusus untuk **Pondok Pesantren Darul Ulum Tlasih, Tulangan**. Proyek ini merupakan inisiatif **DigitalNote by Rofian** untuk membawa transformasi digital ke lingkungan pendidikan Islam, mempermudah akses informasi publik, serta mengelola administrasi internal secara efisien.
+
+## 📌 Tentang Proyek
+Aplikasi ini tidak hanya berfungsi sebagai "wajah" digital pesantren di internet, tetapi juga sebagai pusat data yang mengintegrasikan berbagai kebutuhan operasional institusi. Dengan menggunakan **CodeIgniter 4**, sistem ini menawarkan performa yang ringan, cepat, dan tingkat keamanan yang lebih baik.
+
+### ✨ Fitur Utama
+*   **Profil Lembaga Dinamis:** Publikasi sejarah, visi-misi, dan struktur organisasi pesantren secara interaktif.
+*   **Sistem Manajemen Santri:** Pendataan database santri yang terorganisir untuk mempermudah pencarian dan pengarsipan.
+*   **Manajemen Konten (CMS):** Memungkinkan admin pesantren untuk memperbarui berita, galeri kegiatan, dan pengumuman tanpa menyentuh kode program.
+*   **Arsitektur Aman:** Implementasi folder `public/` sebagai *document root* untuk melindungi logika inti framework dari akses luar.
+
+## 🛠️ Tech Stack
+*   **Core Framework:** [CodeIgniter 4.x](https://codeigniter.com)
+*   **Programming Language:** PHP 7.4+
+*   **Database:** MySQL
+*   **Frontend:** Bootstrap / CSS Custom
+*   **Developer:** DigitalNote by Rofian
+
+## ⚙️ Panduan Instalasi
+
+Pastikan server Anda memenuhi persyaratan PHP 7.4 ke atas dengan ekstensi `intl` dan `mbstring` yang aktif.
+
+1.  **Clone Repository**
+    ```bash
+    git clone https://github.com/Luthfan-Rofian/web-profile-darululum.git
+    ```
+2.  **Konfigurasi Environment**
+    *   Salin file `env` menjadi `.env`.
+    *   Sesuaikan pengaturan database:
+        ```env
+        database.default.hostname = localhost
+        database.default.database = nama_db_anda
+        database.default.username = root
+        database.default.password = 
+        database.default.DBDriver = MySQLi
+        ```
+3.  **Pengaturan URL**
+    *   Atur `app.baseURL` di file `.env` sesuai dengan alamat domain atau localhost Anda.
+4.  **Konfigurasi Web Server**
+    *   **Penting:** Arahkan *Document Root* Apache atau Nginx Anda ke folder `/public` agar aplikasi berjalan dengan benar dan aman.
+
+## 📝 Catatan Penting
+File `index.php` sekarang berada di dalam folder `public/`. Jangan memindahkannya ke root folder demi menjaga integritas sistem keamanan CodeTentu, ini draf `README.md` yang lebih lengkap, mendalam, dan terstruktur untuk repository **web-profile-darululum**. Format ini dirancang agar terlihat sangat profesional bagi siapa pun yang mengunjungi profil GitHub Anda.
+
+---
+
+# Web Profile & Information System - Ponpes Darul Ulum Tlasih
+
+![Version](https://img.shields.io/badge/Version-1.0.0-blue)
+![Framework](https://img.shields.io/badge/Framework-CodeIgniter--4-firebrick)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+Sistem profil web dan sistem informasi manajemen (SIM) resmi ini dikembangkan khusus untuk **Pondok Pesantren Darul Ulum Tlasih, Tulangan**. Proyek ini merupakan inisiatif **DigitalNote by Rofian** untuk membawa transformasi digital ke lingkungan pendidikan Islam, mempermudah akses informasi publik, serta mengelola administrasi internal secara efisien.
+
+## 📌 Tentang Proyek
+Aplikasi ini tidak hanya berfungsi sebagai "wajah" digital pesantren di internet, tetapi juga sebagai pusat data yang mengintegrasikan berbagai kebutuhan operasional institusi. Dengan menggunakan **CodeIgniter 4**, sistem ini menawarkan performa yang ringan, cepat, dan tingkat keamanan yang lebih baik.
+
+### ✨ Fitur Utama
+*   **Profil Lembaga Dinamis:** Publikasi sejarah, visi-misi, dan struktur organisasi pesantren secara interaktif.
+*   **Sistem Manajemen Santri:** Pendataan database santri yang terorganisir untuk mempermudah pencarian dan pengarsipan.
+*   **Manajemen Konten (CMS):** Memungkinkan admin pesantren untuk memperbarui berita, galeri kegiatan, dan pengumuman tanpa menyentuh kode program.
+*   **Arsitektur Aman:** Implementasi folder `public/` sebagai *document root* untuk melindungi logika inti framework dari akses luar.
+
+## 🛠️ Tech Stack
+*   **Core Framework:** [CodeIgniter 4.x](https://codeigniter.com)
+*   **Programming Language:** PHP 7.4+
+*   **Database:** MySQL
+*   **Frontend:** Bootstrap / CSS Custom
+*   **Developer:** DigitalNote by Rofian
+
+## ⚙️ Panduan Instalasi
+
+Pastikan server Anda memenuhi persyaratan PHP 7.4 ke atas dengan ekstensi `intl` dan `mbstring` yang aktif.
+
+1.  **Clone Repository**
+    ```bash
+    git clone https://github.com/Luthfan-Rofian/web-profile-darululum.git
+    ```
+2.  **Konfigurasi Environment**
+    *   Salin file `env` menjadi `.env`.
+    *   Sesuaikan pengaturan database:
+        ```env
+        database.default.hostname = localhost
+        database.default.database = nama_db_anda
+        database.default.username = root
+        database.default.password = 
+        database.default.DBDriver = MySQLi
+        ```
+3.  **Pengaturan URL**
+    *   Atur `app.baseURL` di file `.env` sesuai dengan alamat domain atau localhost Anda.
+4.  **Konfigurasi Web Server**
+    *   **Penting:** Arahkan *Document Root* Apache atau Nginx Anda ke folder `/public` agar aplikasi berjalan dengan benar dan aman.
+
+## 📝 Catatan Penting
+File `index.php` sekarang berada di dalam folder `public/`. Jangan memindahkannya ke root folder demi menjaga integritas sistem keamanan CodeIgniter 4Tentu, ini draf `README.md` yang lebih lengkap, mendalam, dan terstruktur untuk repository **web-profile-darululum**. Format ini dirancang agar terlihat sangat profesional bagi siapa pun yang mengunjungi profil GitHub Anda.
+
+---
+
+# Web Profile & Information System - Ponpes Darul Ulum Tlasih
+
+![Version](https://img.shields.io/badge/Version-1.0.0-blue)
+![Framework](https://img.shields.io/badge/Framework-CodeIgniter--4-firebrick)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+Sistem profil web dan sistem informasi manajemen (SIM) resmi ini dikembangkan khusus untuk **Pondok Pesantren Darul Ulum Tlasih, Tulangan**. Proyek ini merupakan inisiatif **DigitalNote by Rofian** untuk membawa transformasi digital ke lingkungan pendidikan Islam, mempermudah akses informasi publik, serta mengelola administrasi internal secara efisien.
+
+## 📌 Tentang Proyek
+Aplikasi ini tidak hanya berfungsi sebagai "wajah" digital pesantren di internet, tetapi juga sebagai pusat data yang mengintegrasikan berbagai kebutuhan operasional institusi. Dengan menggunakan **CodeIgniter 4**, sistem ini menawarkan performa yang ringan, cepat, dan tingkat keamanan yang lebih baik.
+
+### ✨ Fitur Utama
+*   **Profil Lembaga Dinamis:** Publikasi sejarah, visi-misi, dan struktur organisasi pesantren secara interaktif.
+*   **Sistem Manajemen Santri:** Pendataan database santri yang terorganisir untuk mempermudah pencarian dan pengarsipan.
+*   **Manajemen Konten (CMS):** Memungkinkan admin pesantren untuk memperbarui berita, galeri kegiatan, dan pengumuman tanpa menyentuh kode program.
+*   **Arsitektur Aman:** Implementasi folder `public/` sebagai *document root* untuk melindungi logika inti framework dari akses luar.
+
+## 🛠️ Tech Stack
+*   **Core Framework:** [CodeIgniter 4.x](https://codeigniter.com)
+*   **Programming Language:** PHP 7.4+
+*   **Database:** MySQL
+*   **Frontend:** Bootstrap / CSS Custom
+*   **Developer:** DigitalNote by Rofian
+
+## ⚙️ Panduan Instalasi
+
+Pastikan server Anda memenuhi persyaratan PHP 7.4 ke atas dengan ekstensi `intl` dan `mbstring` yang aktif.
+
+1.  **Clone Repository**
+    ```bash
+    git clone https://github.com/Luthfan-Rofian/web-profile-darululum.git
+    ```
+2.  **Konfigurasi Environment**
+    *   Salin file `env` menjadi `.env`.
+    *   Sesuaikan pengaturan database:
+        ```env
+        database.default.hostname = localhost
+        database.default.database = nama_db_anda
+        database.default.username = root
+        database.default.password = 
+        database.default.DBDriver = MySQLi
+        ```
+3.  **Pengaturan URL**
+    *   Atur `app.baseURL` di file `.env` sesuai dengan alamat domain atau localhost Anda.
+4.  **Konfigurasi Web Server**
+    *   **Penting:** Arahkan *Document Root* Apache atau Nginx Anda ke folder `/public` agar aplikasi berjalan dengan benar dan aman.
+
+## 📝 Catatan Penting
+File `index.php` sekarang berada di dalam folder `public/`. Jangan memindahkannya ke root folder demi menjaga integritas sistem keamanan CodeIgniter 4.
+
+---
+
+## ☕ Dukungan & Kontribusi
+Proyek ini dikelola secara independen oleh **DigitalNoteTentu, ini draf `README.md` yang lebih lengkap, mendalam, dan terstruktur untuk repository **web-profile-darululum**. Format ini dirancang agar terlihat sangat profesional bagi siapa pun yang mengunjungi profil GitHub Anda.
+
+---
+
+# Web Profile & Information System - Ponpes Darul Ulum Tlasih
+
+![Version](https://img.shields.io/badge/Version-1.0.0-blue)
+![Framework](https://img.shields.io/badge/Framework-CodeIgniter--4-firebrick)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+Sistem profil web dan sistem informasi manajemen (SIM) resmi ini dikembangkan khusus untuk **Pondok Pesantren Darul Ulum Tlasih, Tulangan**. Proyek ini merupakan inisiatif **DigitalNote by Rofian** untuk membawa transformasi digital ke lingkungan pendidikan Islam, mempermudah akses informasi publik, serta mengelola administrasi internal secara efisien.
+
+## 📌 Tentang Proyek
+Aplikasi ini tidak hanya berfungsi sebagai "wajah" digital pesantren di internet, tetapi juga sebagai pusat data yang mengintegrasikan berbagai kebutuhan operasional institusi. Dengan menggunakan **CodeIgniter 4**, sistem ini menawarkan performa yang ringan, cepat, dan tingkat keamanan yang lebih baik.
+
+### ✨ Fitur Utama
+*   **Profil Lembaga Dinamis:** Publikasi sejarah, visi-misi, dan struktur organisasi pesantren secara interaktif.
+*   **Sistem Manajemen Santri:** Pendataan database santri yang terorganisir untuk mempermudah pencarian dan pengarsipan.
+*   **Manajemen Konten (CMS):** Memungkinkan admin pesantren untuk memperbarui berita, galeri kegiatan, dan pengumuman tanpa menyentuh kode program.
+*   **Arsitektur Aman:** Implementasi folder `public/` sebagai *document root* untuk melindungi logika inti framework dari akses luar.
+
+## 🛠️ Tech Stack
+*   **Core Framework:** [CodeIgniter 4.x](https://codeigniter.com)
+*   **Programming Language:** PHP 7.4+
+*   **Database:** MySQL
+*   **Frontend:** Bootstrap / CSS Custom
+*   **Developer:** DigitalNote by Rofian
+
+## ⚙️ Panduan Instalasi
+
+Pastikan server Anda memenuhi persyaratan PHP 7.4 ke atas dengan ekstensi `intl` dan `mbstring` yang aktif.
+
+1.  **Clone Repository**
+    ```bash
+    git clone https://github.com/Luthfan-Rofian/web-profile-darululum.git
+    ```
+2.  **Konfigurasi Environment**
+    *   Salin file `env` menjadi `.env`.
+    *   Sesuaikan pengaturan database:
+        ```env
+        database.default.hostname = localhost
+        database.default.database = nama_db_anda
+        database.default.username = root
+        database.default.password = 
+        database.default.DBDriver = MySQLi
+        ```
+3.  **Pengaturan URL**
+    *   Atur `app.baseURL` di file `.env` sesuai dengan alamat domain atau localhost Anda.
+4.  **Konfigurasi Web Server**
+    *   **Penting:** Arahkan *Document Root* Apache atau Nginx Anda ke folder `/public` agar aplikasi berjalan dengan benar dan aman.
+
+## 📝 Catatan Penting
+File `index.php` sekarang berada di dalam folder `public/`. Jangan memindahkannya ke root folder demi menjaga integritas sistem keamanan CodeIgniter 4.
+
+---
+
+## ☕ Dukungan & Kontribusi
+Proyek ini dikelola secara independen oleh **DigitalNote by Rofian**. Jika Anda merasa sistem ini bermanfaat atau ingin mendukung pengembangan fitur-fitur selanjutnya, Anda dapat memberikan apresiasi melalui:
+
+[![Dukung di Saweria](https://img.shields.io/badge/Support-Saweria-orange?style=for-the-badge&logo=google-pay)](https://sawTentu, ini draf `README.md` yang lebih lengkap, mendalam, dan terstruktur untuk repository **web-profile-darululum**. Format ini dirancang agar terlihat sangat profesional bagi siapa pun yang mengunjungi profil GitHub Anda.
+
+---
+
+# Web Profile & Information System - Ponpes Darul Ulum Tlasih
+
+![Version](https://img.shields.io/badge/Version-1.0.0-blue)
+![Framework](https://img.shields.io/badge/Framework-CodeIgniter--4-firebrick)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+Sistem profil web dan sistem informasi manajemen (SIM) resmi ini dikembangkan khusus untuk **Pondok Pesantren Darul Ulum Tlasih, Tulangan**. Proyek ini merupakan inisiatif **DigitalNote by Rofian** untuk membawa transformasi digital ke lingkungan pendidikan Islam, mempermudah akses informasi publik, serta mengelola administrasi internal secara efisien.
+
+## 📌 Tentang Proyek
+Aplikasi ini tidak hanya berfungsi sebagai "wajah" digital pesantren di internet, tetapi juga sebagai pusat data yang mengintegrasikan berbagai kebutuhan operasional institusi. Dengan menggunakan **CodeIgniter 4**, sistem ini menawarkan performa yang ringan, cepat, dan tingkat keamanan yang lebih baik.
+
+### ✨ Fitur Utama
+*   **Profil Lembaga Dinamis:** Publikasi sejarah, visi-misi, dan struktur organisasi pesantren secara interaktif.
+*   **Sistem Manajemen Santri:** Pendataan database santri yang terorganisir untuk mempermudah pencarian dan pengarsipan.
+*   **Manajemen Konten (CMS):** Memungkinkan admin pesantren untuk memperbarui berita, galeri kegiatan, dan pengumuman tanpa menyentuh kode program.
+*   **Arsitektur Aman:** Implementasi folder `public/` sebagai *document root* untuk melindungi logika inti framework dari akses luar.
+
+## 🛠️ Tech Stack
+*   **Core Framework:** [CodeIgniter 4.x](https://codeigniter.com)
+*   **Programming Language:** PHP 7.4+
+*   **Database:** MySQL
+*   **Frontend:** Bootstrap / CSS Custom
+*   **Developer:** DigitalNote by Rofian
+
+## ⚙️ Panduan Instalasi
+
+Pastikan server Anda memenuhi persyaratan PHP 7.4 ke atas dengan ekstensi `intl` dan `mbstring` yang aktif.
+
+1.  **Clone Repository**
+    ```bash
+    git clone https://github.com/Luthfan-Rofian/web-profile-darululum.git
+    ```
+2.  **Konfigurasi Environment**
+    *   Salin file `env` menjadi `.env`.
+    *   Sesuaikan pengaturan database:
+        ```env
+        database.default.hostname = localhost
+        database.default.database = nama_db_anda
+        database.default.username = root
+        database.default.password = 
+        database.default.DBDriver = MySQLi
+        ```
+3.  **Pengaturan URL**
+    *   Atur `app.baseURL` di file `.env` sesuai dengan alamat domain atau localhost Anda.
+4.  **Konfigurasi Web Server**
+    *   **Penting:** Arahkan *Document Root* Apache atau Nginx Anda ke folder `/public` agar aplikasi berjalan dengan benar dan aman.
+
+## 📝 Catatan Penting
+File `index.php` sekarang berada di dalam folder `public/`. Jangan memindahkannya ke root folder demi menjaga integritas sistem keamanan CodeIgniter 4.
+
+---
+
+## ☕ Dukungan & Kontribusi
+Proyek ini dikelola secara independen oleh **DigitalNote by Rofian**. Jika Anda merasa sistem ini bermanfaat atau ingin mendukung pengembangan fitur-fitur selanjutnya, Anda dapat memberikan apresiasi melalui:
+
+[![Dukung di Saweria](https://img.shields.io/badge/Support-Saweria-orange?style=for-the-badge&logo=google-pay)](https://saweria.co/Luthfanrofian)
+
+**Donasi melalui Saweria:** [https://saweria.co/Luthfanrofian](https://saweria.co/Luthfanrofian)Tentu, ini draf `README.md` yang lebih lengkap, mendalam, dan terstruktur untuk repository **web-profile-darululum**. Format ini dirancang agar terlihat sangat profesional bagi siapa pun yang mengunjungi profil GitHub Anda.
+
+---
+
+# Web Profile & Information System - Ponpes Darul Ulum Tlasih
+
+![Version](https://img.shields.io/badge/Version-1.0.0-blue)
+![Framework](https://img.shields.io/badge/Framework-CodeIgniter--4-firebrick)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+Sistem profil web dan sistem informasi manajemen (SIM) resmi ini dikembangkan khusus untuk **Pondok Pesantren Darul Ulum Tlasih, Tulangan**. Proyek ini merupakan inisiatif **DigitalNote by Rofian** untuk membawa transformasi digital ke lingkungan pendidikan Islam, mempermudah akses informasi publik, serta mengelola administrasi internal secara efisien.
+
+## 📌 Tentang Proyek
+Aplikasi ini tidak hanya berfungsi sebagai "wajah" digital pesantren di internet, tetapi juga sebagai pusat data yang mengintegrasikan berbagai kebutuhan operasional institusi. Dengan menggunakan **CodeIgniter 4**, sistem ini menawarkan performa yang ringan, cepat, dan tingkat keamanan yang lebih baik.
+
+### ✨ Fitur Utama
+*   **Profil Lembaga Dinamis:** Publikasi sejarah, visi-misi, dan struktur organisasi pesantren secara interaktif.
+*   **Sistem Manajemen Santri:** Pendataan database santri yang terorganisir untuk mempermudah pencarian dan pengarsipan.
+*   **Manajemen Konten (CMS):** Memungkinkan admin pesantren untuk memperbarui berita, galeri kegiatan, dan pengumuman tanpa menyentuh kode program.
+*   **Arsitektur Aman:** Implementasi folder `public/` sebagai *document root* untuk melindungi logika inti framework dari akses luar.
+
+## 🛠️ Tech Stack
+*   **Core Framework:** [CodeIgniter 4.x](https://codeigniter.com)
+*   **Programming Language:** PHP 7.4+
+*   **Database:** MySQL
+*   **Frontend:** Bootstrap / CSS Custom
+*   **Developer:** DigitalNote by Rofian
+
+## ⚙️ Panduan Instalasi
+
+Pastikan server Anda memenuhi persyaratan PHP 7.4 ke atas dengan ekstensi `intl` dan `mbstring` yang aktif.
+
+1.  **Clone Repository**
+    ```bash
+    git clone https://github.com/Luthfan-Rofian/web-profile-darululum.git
+    ```
+2.  **Konfigurasi Environment**
+    *   Salin file `env` menjadi `.env`.
+    *   Sesuaikan pengaturan database:
+        ```env
+        database.default.hostname = localhost
+        database.default.database = nama_db_anda
+        database.default.username = root
+        database.default.password = 
+        database.default.DBDriver = MySQLi
+        ```
+3.  **Pengaturan URL**
+    *   Atur `app.baseURL` di file `.env` sesuai dengan alamat domain atau localhost Anda.
+4.  **Konfigurasi Web Server**
+    *   **Penting:** Arahkan *Document Root* Apache atau Nginx Anda ke folder `/public` agar aplikasi berjalan dengan benar dan aman.
+
+## 📝 Catatan Penting
+File `index.php` sekarang berada di dalam folder `public/`. Jangan memindahkannya ke root folder demi menjaga integritas sistem keamanan CodeIgniter 4.
+
+---
+
+## ☕ Dukungan & Kontribusi
+Proyek ini dikelola secara independen oleh **DigitalNote by Rofian**. Jika Anda merasa sistem ini bermanfaat atau ingin mendukung pengembangan fitur-fitur selanjutnya, Anda dapat memberikan apresiasi melalui:
+
+[![Dukung di Saweria](https://img.shields.io/badge/Support-Saweria-orange?style=for-the-badge&logo=google-pay)](https://saweria.co/Luthfanrofian)
+
+**Donasi melalui Saweria:** [https://saweria.co/Luthfanrofian](https://saweria.co/Luthfanrofian)
+
+---
+*Dibuat dengan dedikasi untuk digitalisasi pesantrenTentu, ini draf `README.md` yang lebih lengkap, mendalam, dan terstruktur untuk repository **web-profile-darululum**. Format ini dirancang agar terlihat sangat profesional bagi siapa pun yang mengunjungi profil GitHub Anda.
+
+---
+
+# Web Profile & Information System - Ponpes Darul Ulum Tlasih
+
+![Version](https://img.shields.io/badge/Version-1.0.0-blue)
+![Framework](https://img.shields.io/badge/Framework-CodeIgniter--4-firebrick)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+Sistem profil web dan sistem informasi manajemen (SIM) resmi ini dikembangkan khusus untuk **Pondok Pesantren Darul Ulum Tlasih, Tulangan**. Proyek ini merupakan inisiatif **DigitalNote by Rofian** untuk membawa transformasi digital ke lingkungan pendidikan Islam, mempermudah akses informasi publik, serta mengelola administrasi internal secara efisien.
+
+## 📌 Tentang Proyek
+Aplikasi ini tidak hanya berfungsi sebagai "wajah" digital pesantren di internet, tetapi juga sebagai pusat data yang mengintegrasikan berbagai kebutuhan operasional institusi. Dengan menggunakan **CodeIgniter 4**, sistem ini menawarkan performa yang ringan, cepat, dan tingkat keamanan yang lebih baik.
+
+### ✨ Fitur Utama
+*   **Profil Lembaga Dinamis:** Publikasi sejarah, visi-misi, dan struktur organisasi pesantren secara interaktif.
+*   **Sistem Manajemen Santri:** Pendataan database santri yang terorganisir untuk mempermudah pencarian dan pengarsipan.
+*   **Manajemen Konten (CMS):** Memungkinkan admin pesantren untuk memperbarui berita, galeri kegiatan, dan pengumuman tanpa menyentuh kode program.
+*   **Arsitektur Aman:** Implementasi folder `public/` sebagai *document root* untuk melindungi logika inti framework dari akses luar.
+
+## 🛠️ Tech Stack
+*   **Core Framework:** [CodeIgniter 4.x](https://codeigniter.com)
+*   **Programming Language:** PHP 7.4+
+*   **Database:** MySQL
+*   **Frontend:** Bootstrap / CSS Custom
+*   **Developer:** DigitalNote by Rofian
+
+## ⚙️ Panduan Instalasi
+
+Pastikan server Anda memenuhi persyaratan PHP 7.4 ke atas dengan ekstensi `intl` dan `mbstring` yang aktif.
+
+1.  **Clone Repository**
+    ```bash
+    git clone https://github.com/Luthfan-Rofian/web-profile-darululum.git
+    ```
+2.  **Konfigurasi Environment**
+    *   Salin file `env` menjadi `.env`.
+    *   Sesuaikan pengaturan database:
+        ```env
+        database.default.hostname = localhost
+        database.default.database = nama_db_anda
+        database.default.username = root
+        database.default.password = 
+        database.default.DBDriver = MySQLi
+        ```
+3.  **Pengaturan URL**
+    *   Atur `app.baseURL` di file `.env` sesuai dengan alamat domain atau localhost Anda.
+4.  **Konfigurasi Web Server**
+    *   **Penting:** Arahkan *Document Root* Apache atau Nginx Anda ke folder `/public` agar aplikasi berjalan dengan benar dan aman.
+
+## 📝 Catatan Penting
+File `index.php` sekarang berada di dalam folder `public/`. Jangan memindahkannya ke root folder demi menjaga integritas sistem keamanan CodeIgniter 4.
+
+---
+
+## ☕ Dukungan & Kontribusi
+Proyek ini dikelola secara independen oleh **DigitalNote by Rofian**. Jika Anda merasa sistem ini bermanfaat atau ingin mendukung pengembangan fitur-fitur selanjutnya, Anda dapat memberikan apresiasi melalui:
+
+[![Dukung di Saweria](https://img.shields.io/badge/Support-Saweria-orange?style=for-the-badge&logo=google-pay)](https://saweria.co/Luthfanrofian)
+
+**Donasi melalui Saweria:** [https://saweria.co/Luthfanrofian](https://saweria.co/Luthfanrofian)
+
+---
+*Dibuat dengan dedikasi untuk digitalisasi pesantren oleh **DigitalNote by Rofian**.*
