@@ -94,7 +94,8 @@ Proyek ini terus dikembangkan oleh **DigitalNote by Rofian** untuk mendukung kem
 
 Jika Anda merasa proyek ini bermanfaat dan ingin memberikan dukungan:
 
-👉 **Dukung di Saweria**
+👉 **Dukung di Saweria**  
+https://saweria.co/Luthfanrofian
 
 ---
 
